@@ -8,11 +8,11 @@
 
 <article class="flex flex-col gap-4">
 	<div>
-		<h1 class="text-lg font-bold">Henry Ihenacho</h1>
-		<p class="text-xs italic">Product Engineer</p>
+		<h1 class="text-2xl font-bold">Henry Ihenacho</h1>
+		<p class="text-sm italic">Product Engineer</p>
 	</div>
 
-	<div class="flex flex-col gap-2 text-sm">
+	<div class="flex flex-col gap-2 text-base">
 		<p>
 			I'm a product engineer. I love all things technology, literature, videogames, anime & manga
 			and movies. Oh. Sports too - football and F1.
@@ -28,7 +28,7 @@
 	</div>
 
 	<!-- socials -->
-	<ul class="flex gap-2 text-xs text-blue-500 underline">
+	<ul class="flex gap-2 text-sm text-blue-500 underline">
 		<li>
 			<a href="https://x.com/hiddenhenry" target="_blank">Twitter</a>
 		</li>

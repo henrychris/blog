@@ -6,7 +6,12 @@
 	let posts: Post[] = data.posts;
 </script>
 
-<section>
+<svelte:head>
+	<title>Writing</title>
+</svelte:head>
+
+<section class="flex flex-col gap-2">
+	<h1 class="text-2xl font-bold">Writing</h1>
 	<ul class="grid gap-7">
 		{#each posts as post}
 			<li class="max-w-prose border-b border-gray-200 pb-7 last:border-b-0">
