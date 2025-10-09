@@ -15,8 +15,6 @@
 <svelte:head>
 	<link rel="icon" href={IMAGES.ME} />
 
-	<link rel="icon" href={IMAGES.ME} />
-
 	<!-- Open Graph  -->
 	<meta property="og:title" content={TITLE} />
 	<meta property="og:url" content={SITE_URL} />

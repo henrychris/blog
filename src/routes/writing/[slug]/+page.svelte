@@ -6,8 +6,28 @@
 
 <svelte:head>
 	<title>{data.meta.title}</title>
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:description" content={data.meta.description || data.meta.title} />
+	<meta property="og:url" content={data.url} />
+	{#if data.meta.image}
+		<meta property="og:image" content={data.meta.image} />
+	{/if}
+
+	<meta property="article:published_time" content={data.meta.date} />
+	{#each data.meta.categories as category}
+		<meta property="article:tag" content={category} />
+	{/each}
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={data.meta.title} />
+	<meta name="twitter:description" content={data.meta.description || data.meta.title} />
+	{#if data.meta.image}
+		<meta name="twitter:image" content={data.meta.image} />
+	{/if}
 </svelte:head>
 
 <article class="mx-auto max-w-prose">
