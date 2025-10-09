@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import '@fontsource/jetbrains-mono';
+
+html {
+	/* font */
+	--font-monospace-code: 'JetBrains Mono', monospace;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
