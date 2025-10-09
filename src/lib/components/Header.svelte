@@ -2,17 +2,21 @@
 	import { Menu } from 'lucide-svelte';
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
-	import { ROUTES } from '$lib/constants/routes';
+	import { ROUTES, type Route } from '$lib/constants/routes';
 	import { IMAGES } from '$lib/constants/images';
 
 	let menuOpen = $state(false);
 	let currentPath = $derived(page.url.pathname);
 
-	function isActive(path: string): boolean {
-		if (path === ROUTES.HOME) {
-			return currentPath === ROUTES.HOME;
+	const resolvedHome = $derived(resolve(ROUTES.HOME));
+	const resolvedResume = $derived(resolve(ROUTES.RESUME));
+
+	function isActive(routePath: Route): boolean {
+		const resolvedPath = resolve(routePath);
+		if (routePath === ROUTES.HOME) {
+			return currentPath === resolvedPath || currentPath === resolvedPath + '/';
 		}
-		return currentPath.startsWith(path);
+		return currentPath.startsWith(resolvedPath);
 	}
 </script>
 
@@ -20,8 +24,8 @@
 	<div class="flex items-center gap-2">
 		<img src={IMAGES.ME} alt="Favicon" class="h-12 max-w-full rounded-2xl" />
 
-		{#if currentPath !== ROUTES.HOME && currentPath !== ROUTES.RESUME}
-			<a href={resolve(ROUTES.HOME)}>
+		{#if currentPath !== resolvedHome && currentPath !== resolvedResume}
+			<a href={resolvedHome}>
 				<b>Henry Ihenacho</b>
 			</a>
 		{/if}
