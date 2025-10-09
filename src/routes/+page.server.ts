@@ -1,5 +1,5 @@
 import type { Post } from '$lib/types';
-import type { EntryGenerator } from './[slug]/$types.js';
+import type { EntryGenerator } from './posts/[slug]/$types.js';
 
 async function loadPosts() {
 	let posts: Post[] = [];
