@@ -1,6 +1,6 @@
 # My Blog
 
-My blog / personal website built with SvelteKit and Bun.
+My blog / personal website built with SvelteKit and Bun. Uses Mdsvex for Markdown preprocessing and Shiki for syntax highlighting.
 
 ## Inspiration
 
