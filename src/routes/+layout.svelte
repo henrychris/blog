@@ -3,8 +3,9 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import 	PageTransition from '$lib/components/PageTransition.svelte';
 
-	let { children } = $props();
+	let { children, data } = $props();
 </script>
 
 <svelte:head>
@@ -15,7 +16,9 @@
 	<Header />
 
 	<main class="flex-grow">
-		{@render children?.()}
+		<PageTransition url={data.url}>
+			{@render children?.()}
+		</PageTransition>
 	</main>
 
 	<Footer />
