@@ -18,7 +18,7 @@
 				creator: 'Chimamanda Ngozi Adichie',
 				year: '2003',
 				notes:
-					'Released the year I was born. I used to read this every year until I lended out my copy and never got it back.',
+					'Released the year I was born. I used to read this every year until I lent out my copy and never got it back.',
 				link: 'https://www.goodreads.com/book/show/14569052-purple-hibiscus'
 			}
 		],
