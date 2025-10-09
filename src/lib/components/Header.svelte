@@ -17,9 +17,12 @@
 <nav class="flex items-center justify-between">
 	<div class="flex items-center gap-2">
 		<img src={favicon} alt="Favicon" class="h-16 max-w-full rounded-2xl" />
-		<a href="/">
-			<b>Henry Ihenacho</b>
-		</a>
+
+		{#if currentPath !== '/'}
+			<a href="/">
+				<b>Henry Ihenacho</b>
+			</a>
+		{/if}
 	</div>
 
 	<!-- Desktop nav -->
