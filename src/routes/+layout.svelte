@@ -3,7 +3,7 @@
 	import favicon from '$lib/assets/favicon.jpeg';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import 	PageTransition from '$lib/components/PageTransition.svelte';
+	import PageTransition from '$lib/components/PageTransition.svelte';
 
 	let { children, data } = $props();
 </script>

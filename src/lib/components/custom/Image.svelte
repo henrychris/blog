@@ -12,7 +12,7 @@
 <figure class="my-6">
 	<img {src} {alt} {title} class="w-full rounded-lg" />
 	{#if subtitle}
-		<figcaption class="mt-2 text-center text-sm text-gray-600 italic truncate">
+		<figcaption class="mt-2 truncate text-center text-sm text-gray-600 italic">
 			{subtitle}
 		</figcaption>
 	{/if}

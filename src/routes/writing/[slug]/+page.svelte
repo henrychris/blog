@@ -16,7 +16,7 @@
 		<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
 		{#if data.meta.categories.length > 0}
 			<div class="mt-2 flex gap-2">
-				{#each data.meta.categories as category}
+				{#each data.meta.categories as category (category)}
 					<span class="text-xs text-gray-600">#{category}</span>
 				{/each}
 			</div>
@@ -84,6 +84,8 @@
 	.article-content :global(a) {
 		color: #3b82f6;
 		text-decoration: underline;
+		word-break: break-word;
+		overflow-wrap: break-word;
 	}
 
 	.article-content :global(a:hover) {

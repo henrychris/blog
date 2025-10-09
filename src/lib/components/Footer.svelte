@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	const quotes = ["Despite everything, it's still you."];
+	const quotes = [
+		"Despite everything, it's still you.",
+		"I kind of feel like I'm on drugs when I'm with you. Not that I do drugs. Unless you do drugs. Then I do drugs all the time, every drug."
+	];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	let now = $state(new Date());

@@ -28,13 +28,13 @@
 	<h1 class="text-2xl font-bold">Projects</h1>
 
 	<ul class="flex flex-col gap-1">
-		{#each projects as project}
+		{#each projects as project (project.title)}
 			<li class="flex flex-col gap-0 py-2 hover:bg-gray-50">
 				<div class="flex items-baseline justify-between gap-4">
 					<h2 class="font-medium">{project.title}</h2>
 					{#if project.links && project.links.length > 0}
 						<div class="flex shrink-0 gap-2 text-xs">
-							{#each project.links as link}
+							{#each project.links as link (link.label)}
 								<a
 									href={link.url}
 									target="_blank"

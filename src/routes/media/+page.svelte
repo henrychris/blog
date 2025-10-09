@@ -81,7 +81,7 @@
 
 	<!-- Tabs -->
 	<nav class="flex gap-4 border-b pb-2">
-		{#each tabs as tab}
+		{#each tabs as tab (tab.key)}
 			<button
 				onclick={() => (activeTab = tab.key)}
 				class="text-sm {activeTab === tab.key
@@ -95,7 +95,7 @@
 
 	<!-- Content -->
 	<ul class="flex flex-col gap-1">
-		{#each mediaData[activeTab] as item}
+		{#each mediaData[activeTab] as item (item.title)}
 			<li class="flex flex-col gap-0 py-2 hover:bg-gray-50">
 				<div class="flex items-baseline justify-between gap-4">
 					<div class="flex items-baseline gap-2">

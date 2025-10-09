@@ -36,7 +36,7 @@
 	<h1 class="text-2xl font-bold">Writing</h1>
 
 	<ul class="flex flex-col gap-1">
-		{#each paginatedPosts as post}
+		{#each paginatedPosts as post (post.slug)}
 			<li class="flex items-baseline justify-between gap-4 text-blue-700 hover:underline">
 				<a href="writing/{post.slug}" class="truncate">{post.title}</a>
 				<span class="shrink-0 text-sm text-blue-400">{formatDate(post.date)}</span>
