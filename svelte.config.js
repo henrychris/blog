@@ -1,7 +1,7 @@
 import { mdsvex, escapeSvelte } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import { createHighlighter } from 'shiki';
+import { getSingletonHighlighter } from 'shiki';
 import { fileURLToPath } from 'url';
 import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
@@ -13,11 +13,18 @@ const mdsvexOptions = {
 	extensions: ['.md'],
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
-			const highlighter = await createHighlighter({
+			const highlighter = await getSingletonHighlighter({
 				themes: ['poimandres'],
-				langs: ['javascript', 'typescript', 'c#']
+				langs: ['javascript', 'typescript', 'c#', 'bash', 'json', 'typescript']
 			});
-			await highlighter.loadLanguage('javascript', 'typescript', 'c#');
+			await highlighter.loadLanguage(
+				'javascript',
+				'typescript',
+				'c#',
+				'bash',
+				'json',
+				'typescript'
+			);
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }));
 			return `{@html \`${html}\` }`;
 		}
