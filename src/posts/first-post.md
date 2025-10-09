@@ -1,19 +1,12 @@
 ---
 title: First post
-description: First post.
-date: '2023-4-14'
+description: I'm working on it.
+date: '2025-10-09'
 categories:
-  - sveltekit
-  - svelte
+  - introduction
 published: true
 ---
 
 ## Markdown
 
-Hey friends! 👋
-
-```ts
-function greet(name: string) {
-	console.log(`Hey ${name}! 👋`);
-}
-```
+This site is a work in progress.
