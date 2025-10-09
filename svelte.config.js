@@ -42,10 +42,10 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
-	},
-	paths: {
-		base: ''
+		adapter: adapter(),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/blog' : ''
+		}
 	},
 	extensions: ['.svelte', '.md']
 };

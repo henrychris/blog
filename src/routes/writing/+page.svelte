@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import type { Post } from '$lib/types';
+	import { resolve } from '$app/paths';
+	import { ROUTES } from '$lib/constants/routes';
 
 	const { data } = $props();
 	let posts: Post[] = data.posts;
@@ -38,7 +40,7 @@
 	<ul class="flex flex-col gap-1">
 		{#each paginatedPosts as post (post.slug)}
 			<li class="flex items-baseline justify-between gap-4 text-blue-700 hover:underline">
-				<a href="writing/{post.slug}" class="truncate">{post.title}</a>
+				<a href={resolve(`${ROUTES.WRITING}/${post.slug}`)} class="truncate">{post.title}</a>
 				<span class="shrink-0 text-sm text-blue-400">{formatDate(post.date)}</span>
 			</li>
 		{/each}

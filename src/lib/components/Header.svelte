@@ -1,14 +1,16 @@
 <script lang="ts">
 	import { Menu } from 'lucide-svelte';
-	import favicon from '$lib/assets/favicon.jpeg';
 	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
+	import { ROUTES } from '$lib/constants/routes';
+	import { IMAGES } from '$lib/constants/images';
 
 	let menuOpen = $state(false);
 	let currentPath = $derived(page.url.pathname);
 
 	function isActive(path: string): boolean {
-		if (path === '/') {
-			return currentPath === '/';
+		if (path === ROUTES.HOME) {
+			return currentPath === ROUTES.HOME;
 		}
 		return currentPath.startsWith(path);
 	}
@@ -16,10 +18,10 @@
 
 <nav class="flex items-center justify-between">
 	<div class="flex items-center gap-2">
-		<img src={favicon} alt="Favicon" class="h-12 max-w-full rounded-2xl" />
+		<img src={IMAGES.ME} alt="Favicon" class="h-12 max-w-full rounded-2xl" />
 
-		{#if currentPath !== '/' && currentPath !== '/resume'}
-			<a href="/">
+		{#if currentPath !== ROUTES.HOME && currentPath !== ROUTES.RESUME}
+			<a href={resolve(ROUTES.HOME)}>
 				<b>Henry Ihenacho</b>
 			</a>
 		{/if}
@@ -28,19 +30,23 @@
 	<!-- Desktop nav -->
 	<ul class="hidden gap-7 sm:flex">
 		<li class="hover:underline">
-			<a href="/" class={isActive('/') ? 'underline' : ''}>Me</a>
+			<a href={resolve(ROUTES.HOME)} class={isActive(ROUTES.HOME) ? 'underline' : ''}>Me</a>
 		</li>
 		<li class="hover:underline">
-			<a href="/writing" class={isActive('/writing') ? 'underline' : ''}>Writing</a>
+			<a href={resolve(ROUTES.WRITING)} class={isActive(ROUTES.WRITING) ? 'underline' : ''}
+				>Writing</a
+			>
 		</li>
 		<li class="hover:underline">
-			<a href="/projects" class={isActive('/projects') ? 'underline' : ''}>Projects</a>
+			<a href={resolve(ROUTES.PROJECTS)} class={isActive(ROUTES.PROJECTS) ? 'underline' : ''}
+				>Projects</a
+			>
 		</li>
 		<li class="hover:underline">
-			<a href="/resume" class={isActive('/resume') ? 'underline' : ''}>Resume</a>
+			<a href={resolve(ROUTES.RESUME)} class={isActive(ROUTES.RESUME) ? 'underline' : ''}>Resume</a>
 		</li>
 		<li class="hover:underline">
-			<a href="/media" class={isActive('/media') ? 'underline' : ''}>Media</a>
+			<a href={resolve(ROUTES.MEDIA)} class={isActive(ROUTES.MEDIA) ? 'underline' : ''}>Media</a>
 		</li>
 	</ul>
 
@@ -53,36 +59,36 @@
 			<ul class="absolute right-0 z-10 mt-2 w-40 rounded border bg-white shadow-lg">
 				<li class="hover:bg-gray-100">
 					<a
-						href="/"
-						class="block px-4 py-2 {isActive('/') ? 'underline' : ''}"
+						href={resolve(ROUTES.HOME)}
+						class="block px-4 py-2 {isActive(ROUTES.HOME) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Me</a
 					>
 				</li>
 				<li class="hover:bg-gray-100">
 					<a
-						href="/writing"
-						class="block px-4 py-2 {isActive('/writing') ? 'underline' : ''}"
+						href={resolve(ROUTES.WRITING)}
+						class="block px-4 py-2 {isActive(ROUTES.WRITING) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Writing</a
 					>
 				</li>
 				<li class="hover:bg-gray-100">
 					<a
-						href="/projects"
-						class="block px-4 py-2 {isActive('/projects') ? 'underline' : ''}"
+						href={resolve(ROUTES.PROJECTS)}
+						class="block px-4 py-2 {isActive(ROUTES.PROJECTS) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Projects</a
 					>
 				</li>
 				<li class="hover:bg-gray-100">
 					<a
-						href="/resume"
-						class="block px-4 py-2 {isActive('/resume') ? 'underline' : ''}"
+						href={resolve(ROUTES.RESUME)}
+						class="block px-4 py-2 {isActive(ROUTES.RESUME) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Resume</a
 					>
 				</li>
 				<li class="hover:bg-gray-100">
 					<a
-						href="/media"
-						class="block px-4 py-2 {isActive('/media') ? 'underline' : ''}"
+						href={resolve(ROUTES.MEDIA)}
+						class="block px-4 py-2 {isActive(ROUTES.MEDIA) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Media</a
 					>
 				</li>
