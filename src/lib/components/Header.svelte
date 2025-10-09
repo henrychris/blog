@@ -40,7 +40,7 @@
 			<a href="/resume" class={isActive('/resume') ? 'underline' : ''}>Resume</a>
 		</li>
 		<li class="hover:underline">
-			<a href="/music" class={isActive('/music') ? 'underline' : ''}>Music</a>
+			<a href="/media" class={isActive('/media') ? 'underline' : ''}>Media</a>
 		</li>
 	</ul>
 
@@ -81,9 +81,9 @@
 				</li>
 				<li class="hover:bg-gray-100">
 					<a
-						href="/music"
-						class="block px-4 py-2 {isActive('/music') ? 'underline' : ''}"
-						onclick={() => (menuOpen = false)}>Music</a
+						href="/media"
+						class="block px-4 py-2 {isActive('/media') ? 'underline' : ''}"
+						onclick={() => (menuOpen = false)}>Media</a
 					>
 				</li>
 			</ul>
