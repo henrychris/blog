@@ -1,7 +1,33 @@
 <script lang="ts">
-	import * as config from '$lib/config';
+	const quotes = ["Despite everything, it's still you."];
+	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+	let now = $derived.by(() => new Date());
+	let time = $derived.by(() => {
+		return now.toLocaleTimeString('en-US', {
+			hour: '2-digit',
+			minute: '2-digit',
+			hour12: true,
+			timeZone: 'Africa/Lagos'
+		});
+	});
+	let year = $derived(now.getFullYear());
 </script>
 
-<footer class="border-t py-7">
-	<p>{config.title} &copy; {new Date().getFullYear()}</p>
+<footer class="border-t">
+	<div class="flex flex-col mt-2 items-start justify-between gap-2 sm:flex-row sm:items-center">
+		<div class="w-full max-w-md">
+			<p class="text-gray-600 italic">"{randomQuote}"</p>
+		</div>
+
+		<div
+			class="flex w-full flex-col gap-0 text-right sm:w-auto sm:flex-row sm:items-center sm:gap-2"
+		>
+			<span>{time}</span>
+			<span class="mx-1 hidden text-gray-400 sm:inline">|</span>
+			<span>Lagos, NG</span>
+			<span class="mx-1 hidden text-gray-400 sm:inline">|</span>
+			<span>{year}</span>
+		</div>
+	</div>
 </footer>
