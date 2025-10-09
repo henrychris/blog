@@ -1,6 +1,6 @@
 ---
 title: 'Prince Charming'
-description: I'm working on it.
+description: A narrative exploring a cycle of falling in and out of love, and the search for a "Prince Charming."
 date: '2022-09-04'
 categories:
   - fiction

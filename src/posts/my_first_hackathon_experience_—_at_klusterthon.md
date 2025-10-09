@@ -1,6 +1,6 @@
 ---
 title: 'My First Hackathon Experience — at Klusterthon'
-description: I'm working on it.
+description: A personal account of my first hackathon experience at Klusterthon, where my team and I built a solution for simplifying small business payments.
 date: '2023-11-29'
 categories:
   - me

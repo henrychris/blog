@@ -1,6 +1,6 @@
 ---
 title: 'My Sister'
-description: I'm working on it.
+description: A story about a promise made to a dying sister.
 date: '2022-09-04'
 categories:
   - fiction

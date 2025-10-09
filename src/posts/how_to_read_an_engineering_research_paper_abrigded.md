@@ -1,6 +1,6 @@
 ---
 title: 'How to Read an Engineering Research Paper (Abridged)'
-description: I'm working on it.
+description: An abridged guide on how to effectively read and analyze an engineering research paper.
 date: '2024-11-19'
 categories:
   - reading

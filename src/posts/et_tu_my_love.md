@@ -1,6 +1,6 @@
 ---
 title: Et Tu, My Love?
-description: I'm working on it.
+description: A short story about two past lovers who reconnect, leading to a fateful confrontation.
 date: '2022-09-04'
 categories:
   - fiction

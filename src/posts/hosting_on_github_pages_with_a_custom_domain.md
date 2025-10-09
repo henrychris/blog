@@ -1,6 +1,6 @@
 ---
 title: Hosting on GitHub Pages With a Custom Domain
-description: I'm working on it.
+description: A guide on how to host a website on GitHub Pages with a custom domain and enable HTTPS using Cloudflare.
 date: '2024-12-30'
 categories:
   - github_pages

@@ -1,6 +1,6 @@
 ---
 title: Simple Integration Testing in .NET with Respawn & TestContainers
-description: I'm working on it.
+description: A guide on how to set up simple integration tests in .NET using Respawn and TestContainers for a clean and isolated testing environment.
 date: '2024-08-13'
 categories:
   - csharp

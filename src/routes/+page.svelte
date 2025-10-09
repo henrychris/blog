@@ -22,8 +22,8 @@
 			other go with compilers - I have none, at the time of writing.
 		</p>
 		<p>
-			You'll find the odd technical article here, some yapping about movies and a lot of music
-			recommendations.
+			You'll find the odd technical article here, some yapping about movies, a lot of music
+			recommendations and some old fiction I wrote back in 2022 (and earlier).
 		</p>
 	</div>
 

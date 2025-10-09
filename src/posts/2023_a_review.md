@@ -1,6 +1,6 @@
 ---
 title: '2023: A Review'
-description: I'm working on it.
+description: A personal reflection on my life, career, and experiences in 2023.
 date: '2024-01-01'
 categories:
   - me

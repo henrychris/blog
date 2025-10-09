@@ -1,6 +1,6 @@
 ---
 title: 'Coding Challenges #2 — Building a Cat Tool'
-description: I'm working on it.
+description: A walkthrough of building my own version of the `cat` command-line tool in TypeScript.
 date: '2024-08-10'
 categories:
   - coding_challenges

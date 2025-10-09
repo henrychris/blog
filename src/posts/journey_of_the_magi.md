@@ -1,6 +1,6 @@
 ---
 title: 'Journey Of The Magi'
-description: I'm working on it.
+description: A retelling of the biblical story of the Magi's journey to find the newborn king.
 date: '2022-09-04'
 categories:
   - fiction

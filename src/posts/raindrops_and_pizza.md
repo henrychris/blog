@@ -1,6 +1,6 @@
 ---
 title: 'Raindrops and Pizza'
-description: I'm working on it.
+description: Pizza on a rainy day.
 date: '2022-09-04'
 categories:
   - fiction

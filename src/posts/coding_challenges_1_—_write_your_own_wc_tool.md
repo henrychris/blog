@@ -1,6 +1,6 @@
 ---
 title: 'Coding Challenges #1 — Write Your Own `wc` Tool'
-description: I'm working on it.
+description: A walkthrough of building my own version of the `wc` command-line tool in TypeScript.
 date: '2023-12-15'
 categories:
   - coding_challenges

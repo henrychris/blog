@@ -1,6 +1,6 @@
 ---
 title: 'Coding Challenges #3 — Building a Simple Terminal'
-description: I'm working on it.
+description: A walkthrough of building a simple terminal using Bun and TypeScript.
 date: '2024-10-01'
 categories:
   - coding_challenges

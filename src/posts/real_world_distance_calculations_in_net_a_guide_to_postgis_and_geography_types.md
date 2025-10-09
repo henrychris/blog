@@ -1,6 +1,6 @@
 ---
 title: 'Real-World Distance Calculations in .NET: A Guide to PostGIS and Geography Types'
-description: I'm working on it.
+description: A guide to performing accurate real-world distance calculations in .NET using PostGIS, comparing Cartesian distance, Haversine distance, and the `geography` type.
 date: '2024-11-14'
 categories:
   - csharp

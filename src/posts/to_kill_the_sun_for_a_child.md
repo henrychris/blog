@@ -1,6 +1,6 @@
 ---
 title: 'To Kill The Sun For A Child'
-description: I'm working on it.
+description: A reflection on the my complicated relationship with children.
 date: '2022-09-04'
 categories:
   - fiction

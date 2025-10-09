@@ -1,6 +1,6 @@
 ---
 title: 'Eh...'
-description: I'm working on it.
+description: A poem about the changing nature of pain over a lifetime.
 date: '2022-09-04'
 categories:
   - fiction

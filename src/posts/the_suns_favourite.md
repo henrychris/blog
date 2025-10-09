@@ -1,6 +1,6 @@
 ---
 title: The Sun's Favorite
-description: I'm working on it.
+description: Helios has his favourites.
 date: '2022-09-04'
 categories:
   - fiction

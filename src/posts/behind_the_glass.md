@@ -1,6 +1,6 @@
 ---
 title: 'Behind The Glass'
-description: I'm working on it.
+description: A short story about a man's internal conflict as he is about to commit a robbery.
 date: '2022-09-05'
 categories:
   - fiction
