@@ -18,7 +18,7 @@
 	<div class="flex items-center gap-2">
 		<img src={favicon} alt="Favicon" class="h-12 max-w-full rounded-2xl" />
 
-		{#if currentPath !== '/'}
+		{#if currentPath !== '/' && currentPath !== '/resume'}
 			<a href="/">
 				<b>Henry Ihenacho</b>
 			</a>

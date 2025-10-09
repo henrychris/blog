@@ -1,21 +1,31 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	const quotes = ["Despite everything, it's still you."];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-	let now = $derived.by(() => new Date());
-	let time = $derived.by(() => {
-		return now.toLocaleTimeString('en-US', {
+	let now = $state(new Date());
+	let time = $derived(
+		now.toLocaleTimeString('en-US', {
 			hour: '2-digit',
 			minute: '2-digit',
 			hour12: true,
 			timeZone: 'Africa/Lagos'
-		});
-	});
+		})
+	);
 	let year = $derived(now.getFullYear());
+
+	onMount(() => {
+		const interval = setInterval(() => {
+			now = new Date();
+		}, 1000);
+
+		return () => clearInterval(interval);
+	});
 </script>
 
 <footer class="border-t">
-	<div class="flex flex-col mt-2 items-start justify-between gap-2 sm:flex-row sm:items-center">
+	<div class="mt-2 flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
 		<div class="w-full max-w-md">
 			<p class="text-gray-600 italic">"{randomQuote}"</p>
 		</div>
