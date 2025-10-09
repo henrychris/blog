@@ -1,4 +1,4 @@
-export type Categories = 'introduction';
+export type Categories = 'github_pages';
 
 export type Post = {
 	title: string;

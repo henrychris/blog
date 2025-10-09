@@ -16,7 +16,7 @@
 
 <nav class="flex items-center justify-between">
 	<div class="flex items-center gap-2">
-		<img src={favicon} alt="Favicon" class="h-16 max-w-full rounded-2xl" />
+		<img src={favicon} alt="Favicon" class="h-12 max-w-full rounded-2xl" />
 
 		{#if currentPath !== '/'}
 			<a href="/">
