@@ -4,7 +4,8 @@
 	const quotes = [
 		"Despite everything, it's still you.",
 		"I kind of feel like I'm on drugs when I'm with you. Not that I do drugs. Unless you do drugs. Then I do drugs all the time, every drug.",
-		"Everyone of us has been special since the day we were born - we're free."
+		"Everyone of us has been special since the day we were born - we're free.",
+		"Sometimes, life's a bitch and then you keep living."
 	];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
