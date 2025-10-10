@@ -14,8 +14,8 @@
 
 	<div class="flex flex-col gap-2 text-base">
 		<p>
-			I'm a product engineer. I love all things technology, literature, videogames, animanga
-			and movies. Oh. Sports too - football and F1.
+			I'm a product engineer. I love all things technology, literature, videogames, animanga and
+			movies. Oh. Sports too - football and F1.
 		</p>
 		<p>
 			I'm currently figuring out my niche within the world of technology. Some choose databases,
