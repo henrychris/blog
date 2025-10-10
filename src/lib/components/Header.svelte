@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Menu } from 'lucide-svelte';
+	import { Menu, X } from 'lucide-svelte';
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import { ROUTES, type Route } from '$lib/constants/routes';
@@ -56,8 +56,23 @@
 
 	<!-- Mobile dropdown -->
 	<div class="relative sm:hidden">
-		<button class="p-2" aria-label="Open menu" onclick={() => (menuOpen = !menuOpen)}>
-			<Menu class="h-6 w-6 transition-transform duration-300 {menuOpen ? 'rotate-90' : ''}" />
+		<button class="relative p-2" aria-label="Open menu" onclick={() => (menuOpen = !menuOpen)}>
+			<div class="relative h-6 w-6">
+				<div
+					class="absolute inset-0 transition-all duration-300 {menuOpen
+						? 'rotate-90 opacity-0'
+						: 'rotate-0 opacity-100'}"
+				>
+					<Menu class="h-6 w-6" />
+				</div>
+				<div
+					class="absolute inset-0 transition-all duration-300 {menuOpen
+						? 'rotate-0 opacity-100'
+						: '-rotate-90 opacity-0'}"
+				>
+					<X class="h-6 w-6" />
+				</div>
+			</div>
 		</button>
 		{#if menuOpen}
 			<ul class="absolute right-0 z-10 mt-2 w-40 rounded border bg-white shadow-lg">
