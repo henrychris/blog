@@ -13,11 +13,11 @@
 		},
 		{
 			text: "I kind of feel like I'm on drugs when I'm with you. Not that I do drugs. Unless you do drugs. Then I do drugs all the time, every drug.",
-			author: 'Scott Pilgrim vs The World'
+			author: 'Scott Pilgrim, Scott Pilgrim vs The World'
 		},
 		{
 			text: "Everyone of us has been special since the day we were born - we're free.",
-			author: 'Attack On Titan'
+			author: 'Eren Yeager, Attack On Titan'
 		},
 		{
 			text: "Sometimes, life's a bitch and then you keep living.",
@@ -26,7 +26,11 @@
 		{
 			text: 'No risk, full push.',
 			author: 'Max Verstappen'
-		}
+		},
+		{
+			text: 'Honor died on the beach',
+			author: 'Jin Sakai, Ghost of Tsushima'
+		},
 	];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
