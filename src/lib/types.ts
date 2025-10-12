@@ -4,7 +4,8 @@ export type Categories =
 	| 'reading'
 	| 'coding_challenges'
 	| 'me'
-	| 'fiction';
+	| 'fiction'
+	| 'reading';
 
 export type Post = {
 	title: string;
