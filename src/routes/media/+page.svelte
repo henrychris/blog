@@ -24,21 +24,64 @@
 		],
 		music: [
 			{
-				title: 'Chrome Bull',
+				title: 'Chrome Bull DLX',
 				creator: 'Duckwrth',
 				year: '2022',
 				notes:
 					"I like music I can sing (and dance, even though I suck) along to. This album does that and helps me lock in too. It's also endlessly replayable.",
-				link: 'https://open.spotify.com/album/3IJE33ruLyvq3yCiJubw4g?si=VGJpRwxhRBuF31vrJ0FrJg'
+				link: 'https://open.spotify.com/album/5u8lkrEjY9W9yUevdcueWm?si=0TTatLSOSzmtHCE0NVep_A'
+			},
+			{
+				title: 'Sometimes I Might Be Introvert',
+				creator: 'Little Simz',
+				year: '2021',
+				notes: 'Simbi should be more popular than she currently is. This album is timeless.',
+				link: 'https://open.spotify.com/album/0DBoWQ52XUHtrZQdfAqOVj?si=8EnVH1WqTe-c1T4amxY0Jg'
+			},
+			{
+				title: 'If You Say',
+				creator: 'Obongjayar',
+				year: '2021',
+				notes: 'One of the greatest songs of all time. Sarz and Obongjayar are phenomenal.',
+				link: 'https://open.spotify.com/track/0Gti54i0mUfipe9LQDsbGC?si=7eede7f2086e448b'
+			},
+			{
+				title: 'So Good',
+				creator: 'Wurld',
+				year: '2019',
+				notes: 'This song is like butter - smooth, and fun to sing along to.',
+				link: 'https://open.spotify.com/track/5YHbKDKSlMJ5QXdtXwAiP4?si=b3633f89d6a74621'
+			},
+			{
+				title: 'I Go Nowhere',
+				creator: 'Dwin The Stoic',
+				year: '2024',
+				notes:
+					"The first song I heard from Dwin was Ifunanyam. I didn't see the need to explore his discography until someone I was talking to recommended this song. Some trivia: I once applied to Zikoko while he was still Chief Editor - I did not get in. I'm also not a writer anymore, so it's all good.",
+				link: 'https://open.spotify.com/track/4e6F0OgG46Fh3mkLBrxoK6?si=fdbc53addc204529'
+			},
+			{
+				title: 'Habit',
+				creator: 'Still Woozy',
+				year: '2019',
+				notes: 'I consider this a love song.',
+				link: 'https://open.spotify.com/track/4BsLwvaJOTOHDNg7xMpvrL?si=2db3d689051f4a4a'
 			}
 		],
 		anime: [
 			{
 				title: 'Attack On Titan',
-				creator: 'WIT & MAPPA',
+				creator: 'Hajime Isayama',
 				year: '2013-2023',
 				notes: "I don't need to explain why this is here. Just watch it if you haven't already.",
 				link: 'https://www.imdb.com/title/tt2560140/'
+			},
+			{
+				title: 'The Disastrous Life of Saiki K',
+				creator: 'Shuichi Aso',
+				year: '2010-2019',
+				notes: 'God tier comedy anime. Nothing else compares to it.',
+				link: 'https://www.imdb.com/title/tt6354518/'
 			}
 		],
 		movies: [
@@ -49,6 +92,14 @@
 				notes:
 					'I strongly believe Micheal Cera was not the best choice to play Scott, but it is a great (and fun!) movie from my favourite director. It is also endlessly rewatchable.',
 				link: 'https://www.imdb.com/title/tt0446029/'
+			},
+			{
+				title: 'Sinners',
+				creator: 'Ryan Coogler',
+				year: '2025',
+				notes:
+					'I watched this 5 times (3 in theaters) and you should do the same. That scene had my mouth open for minutes. I also listened to the soundtrack more times than a reasonable person should.',
+				link: 'https://www.imdb.com/title/tt31193180/'
 			}
 		],
 		shows: [
