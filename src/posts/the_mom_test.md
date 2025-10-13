@@ -29,14 +29,14 @@ There are three forms of bad data:
 
 ### Deflect Compliments
 
-Unless the opinion comes from an industry expert, it's useless. Only facts and commitments are worth the effort. Avoid compliments by not talking about your idea.  
+Unless the opinion comes from an industry expert, it's useless. Only facts and commitments are worth the effort. Avoid compliments by not talking about your idea.
 
 If you do get a compliment, deflect it and return to the crux of the conversation. Deflecting involves redirecting the conversation to have the customer talk more about themselves and their problems.
 
 **An Example**
 
 C: Great idea, I think it'll work out.  
-M: Speaking of that problem, how do you guys work around it here?  
+M: Speaking of that problem, how do you guys work around it here?
 
 Always try to answer these questions:
 
@@ -46,7 +46,7 @@ Always try to answer these questions:
 
 ### Anchor Fluff
 
-Fluff comes in generic (I usually or I always), future (I will or I would), and hypothetical (I might, I could) flavours. In case of fluff: Ask when it last happened, for them to talk you through it, how they solved it, and what else they tried.  
+Fluff comes in generic (I usually or I always), future (I will or I would), and hypothetical (I might, I could) flavours. In case of fluff: Ask when it last happened, for them to talk you through it, how they solved it, and what else they tried. 
 
 Never ask _"Would you pay for X?"_. The answer is **always** fluff.
 
@@ -64,7 +64,7 @@ They can be used to lead into a mom-test conversation though. Like asking, _"Hav
 You can also drill down into a fluff statement to get a concrete example:
 
 C: "I always have this issue!"  
-M: "Really? When last did it happen?"  
+M: "Really? When last did it happen?"
 
 **Important**: If someone has never tried searching for a solution to a problem, they are a complainer - not a customer.
 
@@ -102,3 +102,60 @@ If they say they really want to hear about what you’re working on, promise tha
 ### Talk Less
 
 Even if someone misunderstands what you're talking about, allow them finish _before_ correcting them. Hearing their POV/mental model can give a new view of the situation that you may not have found yourself. Also, no one likes being interrupted. In a nutshell, the less you talk, the better.
+
+## Chapter 3: Asking Important Questions
+
+While it is important to ask non-biasing questions, it's even more important for you to not over compensate and ask trivial or useless questions.
+
+One way to prevent this, is to ask the hard, important questions. These are questions whose answers affect the existence of your startup.
+
+The best way to find these questions is to run thought experiments. Imagine that the company has failed and ask why that happened. Then imagine it as a huge success and ask what had to be true to get there. Find ways to learn about those critical pieces.
+
+_Rule of thumb: You should be terrified of at least one of the questions you’re asking in every conversation._
+
+**Love Bad News**
+
+Although bad news is upsetting, it can save you a lot of time and money. It's better to go out, talk to customers, find out they don't care about your idea, and close up shop without having spent a dime.
+
+Lukewarm answers = disinterest. If you receive a lukewarm answer you can try to understand the nature of their apathy, but don't try to pitch them until they join you, it never works.
+
+Remember, customers never know if a product will succeed - only the market knows.
+
+_Rule of thumb: There’s more reliable information in a “meh” than a “Wow!” You can’t build a business on a lukewarm response._
+
+**Look Before You Zoom**
+
+Like mentioned in one of the earlier chapters, a person isn't a customer if they haven't tried solving a problem they claim to have.
+
+If you aren't sure whether the problem you're solving is a must-solve, it helps to be more generic when starting a conversation, so you can figure out if the person you're talking to has problems you are looking to solve.
+If they do have the problem, you can zoom in and figure out if they are willing to put their money where their mouth is.
+
+If you are sure the problem you're solving is a must-solve, you can immediately zoom in on it in a conversation. For example, if you're solving marketing for small businesses, you can start wth "So what are your problems with marketing?"
+
+**How do you know if this problem matters?**
+
+Try these or variations of these:
+
+- “How seriously do you take your business?” 
+- “Do you make money from it?”
+- “Have you tried making more money from it?”
+- “How much time do you spend on it each week?”
+- “Do you have any major aspirations for your businese?”
+- “Which tools and services do you use for it?”
+- “What are you already doing to improve this?”
+- “What are the 3 big things you’re trying to fix or improve right now?”
+
+_Rule of thumb: Start broad and don't zoom in until you’ve found a strong signal, both with your whole business and with every conversation. And remember, if the person hasn't tried solving this problem, they are not a customer but a complainer._
+
+**Look At The Elephant**
+
+Asking the big questions is scary. It's easy to avoid them to find some comfort. Startups have multiple failure points and it's important to focus on every single one, not ignore the elephant in the room and hope it goes away.
+
+There are two main kinds of risk to consider:
+
+- **Product risk** — Can I build it? Can I grow it? Will they keep using it?
+- **Market risk** — Do they want it? Will they pay? Are there enough of them?
+
+There are failure points to consider within each bucket. Both must be considered.
+
+However in some cases - like if you’ve got heavy product risk (as opposed to pure market risk) - you’re not going to be able to prove as much of your business through conversations alone. The conversations give you a starting point, but you’ll have to start building product earlier and with less certainty than if you had pure market risk.
