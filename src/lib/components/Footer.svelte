@@ -26,11 +26,7 @@
 		{
 			text: 'No risk, full push.',
 			author: 'Max Verstappen'
-		},
-		{
-			text: 'Honor died on the beach',
-			author: 'Jin Sakai, Ghost of Tsushima'
-		},
+		}
 	];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
