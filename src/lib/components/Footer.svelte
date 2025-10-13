@@ -26,6 +26,10 @@
 		{
 			text: 'No risk, full push.',
 			author: 'Max Verstappen'
+		},
+		{
+			text: 'Whatever happens, happens',
+			author: 'Spike, Cowboy Bebop'
 		}
 	];
 	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
