@@ -113,7 +113,7 @@ The best way to find these questions is to run thought experiments. Imagine that
 
 _Rule of thumb: You should be terrified of at least one of the questions you’re asking in every conversation._
 
-**Love Bad News**
+### Love Bad News
 
 Although bad news is upsetting, it can save you a lot of time and money. It's better to go out, talk to customers, find out they don't care about your idea, and close up shop without having spent a dime.
 
@@ -123,16 +123,16 @@ Remember, customers never know if a product will succeed - only the market knows
 
 _Rule of thumb: There’s more reliable information in a “meh” than a “Wow!” You can’t build a business on a lukewarm response._
 
-**Look Before You Zoom**
+### Look Before You Zoom
 
 Like mentioned in one of the earlier chapters, a person isn't a customer if they haven't tried solving a problem they claim to have.
 
 If you aren't sure whether the problem you're solving is a must-solve, it helps to be more generic when starting a conversation, so you can figure out if the person you're talking to has problems you are looking to solve.
 If they do have the problem, you can zoom in and figure out if they are willing to put their money where their mouth is.
 
-If you are sure the problem you're solving is a must-solve, you can immediately zoom in on it in a conversation. For example, if you're solving marketing for small businesses, you can start wth "So what are your problems with marketing?"
+If you are sure the problem you're solving is a must-solve, you can immediately zoom in on it in a conversation. For example, if you're solving marketing for small businesses, you can start with _"So what are your problems with marketing?"_.
 
-**How do you know if this problem matters?**
+### How do you know if this problem matters?
 
 Try these or variations of these:
 
@@ -147,7 +147,7 @@ Try these or variations of these:
 
 _Rule of thumb: Start broad and don't zoom in until you’ve found a strong signal, both with your whole business and with every conversation. And remember, if the person hasn't tried solving this problem, they are not a customer but a complainer._
 
-**Look At The Elephant**
+### Look At The Elephant
 
 Asking the big questions is scary. It's easy to avoid them to find some comfort. Startups have multiple failure points and it's important to focus on every single one, not ignore the elephant in the room and hope it goes away.
 
@@ -159,3 +159,58 @@ There are two main kinds of risk to consider:
 There are failure points to consider within each bucket. Both must be considered.
 
 However in some cases - like if you’ve got heavy product risk (as opposed to pure market risk) - you’re not going to be able to prove as much of your business through conversations alone. The conversations give you a starting point, but you’ll have to start building product earlier and with less certainty than if you had pure market risk.
+
+### Prepare Your List of 3
+
+Always have a list of the 3 important questions you need to ask for your business at any given time.
+
+Planning these ahead of time makes it easier to pass the Mom test in a conversation.
+
+Curate the questions to the different types of segments of customers you have. Always have them in mind so you can casually pop one off instead of asking the customer to grab a coffee.
+
+Keep it casual.
+
+## Chapter 4 - Keeping It Casual
+
+In his original book, _4 Steps to the Epiphany_, Steve Blank recommends scheduling 3 separate meetings: the first about the customer and their problem; the second about your solution; and the third to sell a product. By splitting the meetings, you avoid zooming in on a 'problem' too early and biasing the customer by mentioning your idea.
+
+There are problems with this approach though.
+
+- it takes a lot of time. You gotta schedule the meeting, find a free calendar block, commute to the meeting, do introductions, finally talk about what you came to talk about. In doing so, you risk the chance of biasing the customer because you have to tell them why you want to talk to them in the first place.
+- At the start, founders are often not credible enough for customers to commit to meeting with them.
+
+It's difficult and expensive to go with this approach. Expensive because a founder's most valuable resource is time.
+
+The solution to this? Keeping it casual.
+
+The first meeting doesn't need to be scheduled. You can start a casual conversation with a potential customer, slide in one of your big 3 questions, and get out before they realise you've had them validate your idea.
+
+You can return to schedule a meeting when you have something concrete to show & need to close a sale.
+
+_Rule of thumb: Learning about a customer and their problems works better as a quick and casual chat than a long, formal meeting._
+
+### The Meeting Antipattern
+
+Asking the right questions is fast and touches on topics people find quite interesting. You can talk anywhere and save yourself the formal meetings until you have something concrete to show.
+
+Setting up a meeting sets an expectation that you have something to sell them. A casual conversation is good for both parties because you've given them a chance to talk about themselves and their problems - who doesn't like talking about themselves?
+
+_Rule of thumb: If it feels like they’re doing you a favour by talking to you, it’s probably too formal._
+
+### How long are meetings?
+
+As you go from product validation -> finding existing solutions -> understanding their workflow -> closing a sale, the meetings take longer.
+
+Early chats are quick, later chats require more talking to cover the ins and outs of each situation.
+
+_Note: You'll make progress a lot faster if you’re able to leave your idea out of it for as long as possible._
+
+### Putting It Together
+
+Even within a scheduled meeting, you'd do well to keep it casual and non-biasing for maximum value.
+
+While making small talk, you can slide in a big 3 question and get an answer, while the customer has no clue you're planning to sell something to them later on.
+
+Just make sure you have an answer for when they ask you "So what did you wanna talk about?"
+
+_Rule of thumb: Give as little information as possible about your idea while still nudging the discussion in a useful direction._
