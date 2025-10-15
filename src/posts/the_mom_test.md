@@ -214,3 +214,93 @@ While making small talk, you can slide in a big 3 question and get an answer, wh
 Just make sure you have an answer for when they ask you "So what did you wanna talk about?"
 
 _Rule of thumb: Give as little information as possible about your idea while still nudging the discussion in a useful direction._
+
+## Chapter 5 - Commitment and Advancement
+
+In sales, moving a sales relationship to the next stage is called "advancement". At this point, they make it clear whether they are a customer or not. After the previous chapters, we should know enough about the industry and it's problems to start showing our product and asking customers for some form of commitment.
+
+- **Commitment** — They are showing they’re serious by giving up something they value such as time, reputation, or money. 
+- **Advancement** — They are moving to the next step of your real-world funnel and getting closer to a sale.
+
+_Rule of thumb: "Customers" who keep being friendly but aren’t ever going to buy are a particularly dangerous source of mixed signals. Don't friend zone your startup._
+
+### All Meetings Succeed or Fail
+
+There's no such thing as a meeting going well. Either it succeeded, and the customer made some sort of commitment. Or they are being wishy washy, and are never going to commit or you never asked in the first place to give them the chance to reject you.
+
+To avoid wasting time with meetings you must:
+
+- Not go in asking their opinion about your product (compliment seeking)
+- Ask for a clear commitment or next steps
+
+It goes without saying that you must know what your next steps are before you're able to ask. It's best if you ask and are rejected, than to never ask and waste time.
+
+If people are willing to commit, it's a strong sign that they are telling the truth.
+
+_Rule of thumb: If you don’t know what happens next after a product or sales meeting, the meeting was pointless._
+
+### The currencies of conversation
+
+Commitment doesn't need to be cash, it could fall into one of these buckets:
+
+**Reputation**
+
+- Intro to peers or team
+- Intro to a decision maker (boss, spouse, lawyer)
+- Giving a public testimonial or case study
+
+**Time**
+
+- Clear next meeting with known goals
+- Sitting down to give feedback on wireframes
+- Using a trial themselves for a non-trivial period
+
+**Cash**
+
+- Letter of intent (non-legal but gentlemanly agreement to purchase)
+- Pre-order
+- Deposit
+
+Of course, all these categories can be combined at once. The real world is flexible!
+
+_Rule of Thumb: The more they give up, the more seriously you can take their words. But if they're handing out compliments, you can take it as a sign that they want you gone._
+
+### Some Examples For Handling Non-Commitment
+
+- **Stalling**: ask for an early commitment, or ask why it can't be done _today_
+- **Compliments**: Deflect, get back to business
+- **Promises to introduce you to people when you're ready**: find out who they are, and why it can't be done ASAP, and what the hell ready means.
+- **What are the next steps**: Great result. You better have the next steps on hand.
+- **"I would definitely buy that"**: Generic fluff, ask for a financial commitment.
+- **"When can we start the trial"**: Depends. some products are easy to try. You can gauge how committed they are by increasing the cost: asking for a case study, asking them to use it with more of their teammates, and so on.
+- **"Can I buy the prototype?"**: Excellent outcome!
+- **"When can you come meet the rest of the team?"**: Excellent outcome!
+
+### How To Fix a Bad Meeting
+
+Ask for some commitment. Don't try to strongarm them, just ask for some form of commitment and give them the chance to directly reject you.
+
+_Rule of thumb: It’s not a real lead until you’ve given them a concrete chance to reject you._
+
+### Don't Pitch Blind
+
+At this point, you know enough about the industry, surely. But this doesn't mean you go around applying the same template to everyone. Find out what makes each customer tick, and you're more likely to close with them.
+
+### Crazy Customers
+
+You want to find the crazy customers. These people or companies:
+
+- Have the problem
+- Know they have the problem
+- Have the budget to solve the problem
+- Have already cobbled together their own makeshift solution
+
+They want you to succeed and are often irrational about it.
+
+When someone isn’t that emotional about what you’re doing, it’s pretty unlikely that they’re going to end up being one of the people who is crazy enough to be your first customer. Keep them on the list, but don’t count on them to write the first check.
+
+Secondly, whenever you see the deep emotion, do your utmost to keep that person close. They are the rare, precious fan who will get you through the hard times and turn into your first sale.
+
+In summary, after you've learned the facts of your industry and customers and designed the solution, you start pushing for advancement and commitments to separate dead leads from real customers.
+
+_Rule of thumb: In early stage sales, the real goal is learning. Revenue is just a side-effect._
