@@ -5,6 +5,7 @@ export type Categories =
 	| 'coding_challenges'
 	| 'me'
 	| 'fiction'
+	| 'projects'
 	| 'reading';
 
 export type Post = {
