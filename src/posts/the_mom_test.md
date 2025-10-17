@@ -304,3 +304,192 @@ Secondly, whenever you see the deep emotion, do your utmost to keep that person 
 In summary, after you've learned the facts of your industry and customers and designed the solution, you start pushing for advancement and commitments to separate dead leads from real customers.
 
 _Rule of thumb: In early stage sales, the real goal is learning. Revenue is just a side-effect._
+
+## Chapter 6 - Finding Conversations
+
+Now that you know about the mom test, you can go talk to your 'potential customers' and get useful info without them lying to you. But if you're in search of new customers, here's how to do it.
+
+### Going To Them
+
+You have to start with cold conversations. But if you are respectful, and show an interest in the person and their problems, it could be the start of a great, warm relationship.
+
+**Cold Calls**
+
+Most people don't like cold calls, so you'll likely get ignored a lot. But you only need one yes to get the ball rolling. Don't give in to despair.
+
+**Seize Serendipity**
+
+Sometimes, you might just randomly run into the kind of person you're looking to meet. Seize the opportunity by having a nice, interesting, casual conversation with them. Remember, people like to talk about themselves and their problems over anything else.
+
+_Rule of thumb: If it’s not a formal meeting, you don’t need to make excuses about why you’re there or even mention that you’re starting a business. Just have a good conversation._
+
+**Find a Good Excuse**
+
+If it’s a topic you and the customer care about, find an excuse to talk about it. Your idea never needs to enter the equation and you’ll both enjoy the chat.
+
+**Immerse Yourself in Where They Are**
+
+Find the places your customers often are, and put in the effort to be in those places regularly. If you do so, you'll have more opportunities to meet new people and ask the questions you need answers to.
+
+**Landing Pages**
+
+Put your website out there, email everyone who signs up and say hello. That's it.
+
+Or, simply get the product out there, see who likes it most, and reach out to those users.
+
+This approach brings the customers to you.
+
+### Bringing them to you
+
+Bringing the customers to you gives you more credibility, and often saves more time and leaves you less frustrated than you'd be having to sneak into conversations with them.
+
+Here are some ways to do this:
+
+**Organise Meetups**
+
+Want to figure out problems people within an industry have? Organise a meetup between people in that industry. It's that simple and it boosts your credibility & name recognition within it
+
+**Speaking & Teaching**
+You refine your message. You boost your credibility. And you find out what parts of your message resonate most, and chat with those people who are keen on it
+
+**Industry Blogging**
+
+Write a blog about the industry as you learn. It contributes to your credibility.
+
+**Get Clever**
+
+Just think outside the box bro. it's really that simple. find some unique way to get people to listen to you. host an award for best pitch in Lagos?
+
+### Creating warm intros
+
+Conversations are infinitely easier when you get an introduction from a mutual, as it establishes your credibility and breaks the ice early on.
+
+**7 seven degrees of separation**
+
+Everybody knows everybody. All you gotta do is ask.
+
+**Industry Advisors**
+
+Find someone in the industry, shell them some equity & have them introduce you to folks.
+
+**Universities**
+
+Speak to professors! Their projects are often funded by industry folk, and anyone who invests in research is bound to be interested in new projects in their field!
+
+**Investors**
+
+These guys usually have a rolodex of contacts. Ask the people who have bought into your idea about who they can introduce you to.
+
+**Cash In Favours**
+
+Reach out to the people who promised a favour and ask for it. Use the format for framing emails / these sorta requests so you don't waste their time and yours.
+
+### Asking for and framing the meeting
+
+Sometimes meetings can't be avoided, but it doesn't mean we have to make it boring and interview-esque. We can frame these meetings in a way that lowers the guard of potential customers, making it a bit more fun, casual and conversational.
+
+The framing format has 5 key elements.
+
+- You're an entrepreneur trying to solve horrible problem X, usher in wonderful vision Y, or fix stagnant industry Z. Don't mention your idea.
+- Frame expectations by mentioning what stage you're at and, if it's true, that you don't have anything to sell.
+- Show weakness and give them a chance to help by mentioning your specific problem that you're looking for answers on. This will also clarify that you're not a time waster.
+- Put them on a pedestal by showing how much they, in particular, can help.
+- Ask for help. Ask good questions
+
+Or, in shorter form: Vision / Framing / Weakness / Pedestal / Ask. The mnemonic is “Very Few Wizards Properly Ask [for help]."
+
+Once the meeting starts, you have to grab the reins or it's liable to turn into them drilling you on your idea, which is exactly what you don't want.
+
+A good approach is to repeat what was said in your email and then immediately drop the first question. If you were introduced by a mutual, then use them to glaze the customer a little more.
+
+These conversations are easy to screw up. As such, you need to be the one in control. You set the agenda, you keep it on topic, and you propose next steps. Don't be a jerk about it, but do have a plan for the meeting and be assertive about keeping it on track.
+
+Remember the goal is to stop having cold conversations but instead have warm intros & casual conversations that both parties enjoy, which helps you learn more about your product and industry.
+
+### To commute or to call
+
+Phone calls are conducive, in that you don't need to commute. But you lost the ability to read body language, or casually talk about the weather or other random stuff you could do while grabbing coffee.
+
+It's also much easier to make friends in person than over a phone call, which is what you want long-term.
+
+### The Advisory Flip
+
+Don't go into these meetings looking for customers, people can smell neediness. Instead, go searching for knowledgeable people who are excited about your idea.
+
+Remember our goal at this point is to learn, before we move to advancing & possibly making some sales.
+
+### How Many Meetings?
+
+The UX guys say you should keep having meetings until you're no longer hearing new information.
+
+If you have a small, focused customer segment, this could take as few as 3-5 meetings. If you have had more than 10 and it's still fuzzy, then your segment could probably use some tightening
+
+Remember, it’s about quickly learning what you need, and then getting back to building your business. You should be able to answer almost any customer question and move onto new ones within a week. 
+
+_Rule of thumb: Keep having conversations until you stop hearing new stuff._
+
+## Chapter 7 - Choosing Your Customers
+
+Startups usually don't die of lack, but instead drown in too many options. Doing a little bit of everything & talking to everyone are easy ways to get overwhelmed.
+
+### Segmentation
+
+Although the biggest companies seem to serve everyone, they actually started small, solving a problem for a specific group of people.
+
+Talking to a bunch of different people brings conflicting feedback, which can leave you confused and wondering where to even start.
+
+Before we can serve everyone, we have to serve someone. Get specific. Think about who is most likely to buy, then make moves to find those people.
+
+_Rule of thumb: If you aren’t finding consistent problems and goals, you don’t yet have a specific enough customer segment._
+
+### Customer Slicing
+
+For customer conversations, you want to have really specific segments because having these conversations takes time. If you end up getting 5 mixed messages each time, you won't have the confidence you need to move forward.
+
+Customer slicing involves taking a customer segment and slicing repeatedly until you have a tangible set of people you can talk to (and expect the same feedback from).
+
+Start with a broad segment and ask:
+
+- Within this group, which type of this person would want it most?
+- Would everyone within this group buy/use it, or only some of them?
+- Why do they want it? (e.g. What is their problem or goal)
+- Does everyone in the group have that motivation or only some of them?
+- What additional motivations are there?
+- Which other types of people have these motivations?
+
+We now have a two groups of segments: the first is a collection of quite specific demographic groups and the second is a series of motivations.
+
+There will be generic ones, so go within those segments, and repeat those questions, slicing and slicing again.
+
+Next we’re going to look at our groups’ behaviours and figure out where to find them.
+
+- What are these people already doing to achieve their goal or survive their problem?
+- Where can we find our demographic groups?
+- Where can we find people doing the above workaround behaviours?
+
+If any of the segments are unfindable, you need to slice them until they are. There's no point in knowing who your customers are if you can't find them. Segments are who-where pairs.
+
+With the who-where pairs in hand, we can start decide who to pursue in order of who seems most:
+
+- Profitable
+- Easy to reach
+- Rewarding for us to build a business around
+
+Remember:
+
+- Find demographics
+- Understand behaviour (and workarounds)
+- Figure out where to find them
+- Speak to them
+
+_Rule of thumb: Good customer segments are a who-where pair. If you don’t know where to go to find your customers, keep slicing your segment into smaller pieces until you do._
+
+### Talking To The Wrong People
+
+There are 3 ways this might happen:
+
+- Your customer segment is too broad
+- You have multiple segments and missed some of them
+- You are selling to businesses with a complicated buying process and have overlooked some of the stakeholders
+
+Don't just talk to the most senior or important people you can find. You want to talk to people who are representative of your customers, not the ones who sound impressive on your status report.
