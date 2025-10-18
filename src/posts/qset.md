@@ -7,9 +7,9 @@ categories:
 published: true
 ---
 
-In November 2024, I was considering moving out of my parent’s home. The power situation had driven me to the edge of insanity as on most days, I had less than 2 hours of electricity. This left me unable to work comfortably, but as an employee, I had no choice in the matter. My workarounds were exhausting. I would leave to work at a nearby lounge or my mom’s office 15 minutes away. Or, I would charge my laptop to 100% overnight and usea a 40,000 mAh powerbank to keep it running. I wanted out.
+In November 2024, I was considering moving out of my parent’s home. The power situation had driven me to the edge of insanity as on most days, I had less than 2 hours of electricity. This left me unable to work comfortably, but as an employee, I had no choice in the matter. My workarounds were exhausting. I would leave to work at a nearby lounge or my mom’s office 15 minutes away. Or, I would charge my laptop to 100% overnight and use a 40,000 mAh powerbank to keep it running. I wanted out.
 
-But before I could move, I needed an apartment that ticked all my boxes. There were many, but for this article, only one matters: I needed to find a place where I could play football nearby.
+But before I could move, I needed an apartment that ticked all my boxes. There were many boxes, but for this article, only one matters: _I needed to find a place where I could play football nearby_.
 
 I'm a software engineer. I spend all day at a desk, staring at a screen, tapping keys for money. To stay healthy, I play football three times a week. This is crucial because I lack the discipline to exercise at home or go to a gym.
 
