@@ -9,6 +9,7 @@
 
 	let headings = $state<Heading[]>([]);
 	let activeId = $state<string>('');
+	let navElement = $state<HTMLElement | null>(null);
 
 	onMount(() => {
 		// Extract all h2 and h3 headings from the article
@@ -59,7 +60,23 @@
 				currentId = headingsArray[headingsArray.length - 1].id;
 			}
 
-			activeId = currentId;
+			if (activeId !== currentId) {
+				activeId = currentId;
+				// Scroll the TOC to keep the active item visible
+				scrollTocToActive();
+			}
+		}
+
+		function scrollTocToActive() {
+			if (!navElement || !activeId) return;
+
+			const activeButton = navElement.querySelector(`button[data-heading-id="${activeId}"]`);
+			if (activeButton) {
+				activeButton.scrollIntoView({
+					behavior: 'smooth',
+					block: 'nearest'
+				});
+			}
 		}
 
 		function onScroll() {
@@ -94,6 +111,7 @@
 
 {#if headings.length > 0}
 	<nav
+		bind:this={navElement}
 		class="sticky top-8 flex max-h-[calc(100vh-4rem)] flex-col gap-3 overflow-y-auto border-l-2 border-gray-200 pl-4"
 		aria-label="Table of contents"
 	>
@@ -102,6 +120,7 @@
 			{#each headings as heading (heading.id)}
 				<li class:pl-4={heading.level === 3}>
 					<button
+						data-heading-id={heading.id}
 						onclick={() => scrollToHeading(heading.id)}
 						class="block w-full cursor-pointer py-1 text-left text-sm transition-colors duration-200
 							{activeId === heading.id ? 'font-semibold text-blue-500' : 'text-gray-600 hover:text-gray-900'}"
