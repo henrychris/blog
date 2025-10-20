@@ -12,13 +12,13 @@
 	{/each}
 </svelte:head>
 
-<div class="flex max-w-7xl gap-8">
-	<article class="mx-auto flex max-w-prose flex-col gap-8">
+<div class="mx-auto flex w-full max-w-7xl gap-8 px-4 sm:px-6 lg:px-8">
+	<article class="mx-auto flex w-full max-w-prose flex-col gap-8">
 		<div class="flex flex-col gap-1">
-			<h1 class="text-2xl font-bold">{data.meta.title}</h1>
+			<h1 class="text-2xl font-bold break-words">{data.meta.title}</h1>
 			<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
 			{#if data.meta.categories.length > 0}
-				<div class="mt-2 flex gap-2">
+				<div class="mt-2 flex flex-wrap gap-2">
 					{#each data.meta.categories as category (category)}
 						<span class="text-xs text-gray-600">#{category}</span>
 					{/each}
@@ -87,13 +87,12 @@
 		background-color: transparent;
 		padding: 0;
 		color: inherit;
+		white-space: pre-wrap;
 	}
 
 	.article-content :global(a) {
 		color: #3b82f6;
 		text-decoration: underline;
-		word-break: break-word;
-		overflow-wrap: break-word;
 	}
 
 	.article-content :global(a:hover) {
@@ -119,5 +118,18 @@
 		margin: 2rem 0;
 		border: none;
 		border-top: 1px solid #e5e7eb;
+	}
+
+	.article-content :global(table) {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		margin-bottom: 1rem;
+	}
+
+	/* Global overflow prevention for mobile */
+	.article-content :global(*) {
+		max-width: 100%;
+		overflow-wrap: break-word;
 	}
 </style>
