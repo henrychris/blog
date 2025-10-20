@@ -493,3 +493,155 @@ There are 3 ways this might happen:
 - You are selling to businesses with a complicated buying process and have overlooked some of the stakeholders
 
 Don't just talk to the most senior or important people you can find. You want to talk to people who are representative of your customers, not the ones who sound impressive on your status report.
+
+## Chapter 8 - Running The Process
+
+You need to have a process around your customer conversations to extract full value. You also want to avoid bottlenecks, like having the business guy going around talking to customers & returning with a list of notes that aren't properly shared with everyone else.
+
+### Symptoms of a learning bottleneck
+
+- “You just worry about the product. I’ll learn what we need to know.”
+- “Because the customers told me so!”
+- “I don’t have time to talk to people — I need to be coding!”
+
+Avoiding bottlenecks has three parts: prepping, reviewing, and taking good notes.
+
+### Prepping
+
+1. Know your list of big 3 questions. Make a point to ask the scary questions.
+2. What steps will we take next after the meeting?
+3. Before a conversation, write down best guesses on what the person you're talking to wants and cares about. If your customer segment is focused, everyone will have the same core beliefs
+4. If there are questions that could be answered with research - answer them
+5. Do basic due diligence by googling the customer and their company
+6. Involve the entire team when prepping
+
+When prepping, these two questions help tease out hidden risks:
+
+- If this company fails, what would have killed it?
+- What would have to be true for this company to be a huge success?
+
+In short, we're trying to figure out: "What do we want to learn from this customer?"
+
+_Rule of thumb: If you don’t know what you’re trying to learn, you shouldn’t bother having the conversation._
+
+### Reviewing
+
+After every conversation, review the notes with the team & update the big 3 questions and beliefs. At the end of a review, all the learning must be on paper and in every team members head.
+
+Note these:
+
+- Key quotes
+- Main takeaways
+- Problems or potential problems
+
+Also review the conversation too. Which questions worked and which didn’t? How can we do better next time?
+
+Everyone making big decisions should show up. Meeting go best with two people: one talking, one taking notes. Both making sure to catch any conversation errors or bad questions & immediately jumping in to resolve the problem.
+
+You can't hire out this process. It's a guaranteed way to get bad signals. But you can hire someone to help lead these conversations, as long as you're there with them, listening and watching for mistakes.
+
+### How To Write It Down
+
+Good notes are the best way to keep your team in the loop. They make it hard to lie to yourself about the state of the industry and your business.
+
+Write down "exact quotes" wrapped in quotation marks, or just the Big Idea. Use _symbols_ to capture important emotions or context.
+
+**Emotions**
+
+- Excited
+- Angry
+- Embarrassed
+- Exasperated
+
+Emotions greatly affect the meaning of a given statement, so any strong emotions must be noted down.
+
+**Their Life**
+
+- Pain or Problem
+- Goal or Job to be done or Aim
+- Obstacle
+- Workaround
+- Context or Background
+
+Combine these with emotion symbols where appropriate. Pains and obstacles carry a lot more weight when someone is embarrassed or angry about them. 
+
+Obstacles are preventing a customer from solving their problems even though they want to. They're important because you'll probably also have to deal with them.
+
+**Specifics**
+
+- Feature request or purchasing criteria
+- Money or budgets or purchasing process
+- Mentioned a specific person or company
+- Follow up task
+
+If they mention someone they know, ask for an introduction. If it's a rival, do some research on them.
+
+### Where To Write It Down
+
+You want to take your customer notes so that they are:
+
+- Able to be sorted, mixed, and re-arranged
+- Able to be combined with the notes of the rest of your team
+- Permanent and retrievable
+- Not mixed in with other random noise like todo lists and ideas
+
+I believe the best options are Google Docs or a wiki of markdown docs viewed with Obsidian. The former is easy to share and access, while the latter allows us to add frontmatter for common information & searchable tags we can use to tag the symbols from the previous section.
+
+Regardless, when talking to the customer, a notepad is probably best as it is the least rude. After a meeting, you must sit to process the notes and move them to the main storage.
+
+_Rule of thumb: Notes are useless if you don't look at them._
+
+### The Process
+
+Talking to customers is a tool, not an obligation. If you don't care to do it properly, don't do it at all.
+
+**Signs you’re just going through the motions:**
+
+- You’re talking more than they are
+- They are complimenting you or your idea
+- You told them about your idea and don’t know what’s happening next
+- You don’t have notes
+- You haven’t looked through your notes with your team
+- You got an unexpected answer and it didn’t change your idea
+- You weren’t scared of any of the questions you asked
+- You aren’t sure which big question you’re trying to answer by doing this
+
+You must wrap the customer conversations in a process to maximise efficiency & not waste your time.
+
+**Before a set of conversations**
+
+- Choose a focused findable segment
+- With your team, decide the big 3 learning goals
+- If relevant, decide next steps and commitments
+- If conversations are needed, find out who to talk to
+- Guess what the person wants or cares about
+- Research any questions that can be answered on the internet
+
+**During The Conversation**
+
+- Frame the conversation
+- Keep it casual
+- Ask questions that pass The Mom Test
+- Deflect compliments. Anchor fluff. Dig beneath signals.
+- Take good notes
+- If relevant, press for commitment and next steps
+
+**After a Batch Of Conversations**
+
+- Review notes and quotes with the team
+- Process notes & transfer to permanent storage if necessary
+- Update your beliefs and plans
+- Decide on the next 3 big questions
+
+This process has two goals:
+
+- Maximise use of time and thinking power by asking the right questions
+- Spreading the knowledge across all team members
+
+### Move Fast
+
+Don’t spend a week prepping for meetings; spend an hour and then go talk to people. Anything more is stalling. 
+
+Don’t spend months doing full-time customer conversations before beginning to move on a product. Spend a week, maybe two. Speed is the moat.
+
+_Rule of Thumb: Go build your company already._
