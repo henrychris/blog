@@ -13,8 +13,8 @@
 </svelte:head>
 
 <div class="flex max-w-7xl gap-8">
-	<article class="mx-auto max-w-prose">
-		<div class="mb-8 flex flex-col gap-1">
+	<article class="mx-auto flex max-w-prose flex-col gap-8">
+		<div class="flex flex-col gap-1">
 			<h1 class="text-2xl font-bold">{data.meta.title}</h1>
 			<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
 			{#if data.meta.categories.length > 0}
