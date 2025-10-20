@@ -103,7 +103,7 @@
 				<li class:pl-4={heading.level === 3}>
 					<button
 						onclick={() => scrollToHeading(heading.id)}
-						class="block w-full py-1 text-left text-sm transition-colors duration-200
+						class="block w-full cursor-pointer py-1 text-left text-sm transition-colors duration-200
 							{activeId === heading.id ? 'font-semibold text-blue-500' : 'text-gray-600 hover:text-gray-900'}"
 					>
 						{heading.text}
