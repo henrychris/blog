@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
+	import TableOfContents from '$lib/components/TableOfContents.svelte';
 
 	let { data } = $props();
 </script>
@@ -11,23 +12,29 @@
 	{/each}
 </svelte:head>
 
-<article class="mx-auto max-w-prose">
-	<div class="mb-8 flex flex-col gap-1">
-		<h1 class="text-2xl font-bold">{data.meta.title}</h1>
-		<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
-		{#if data.meta.categories.length > 0}
-			<div class="mt-2 flex gap-2">
-				{#each data.meta.categories as category (category)}
-					<span class="text-xs text-gray-600">#{category}</span>
-				{/each}
-			</div>
-		{/if}
-	</div>
+<div class="flex max-w-7xl gap-8">
+	<article class="flex max-w-3xl flex-col gap-8">
+		<div class="flex flex-col gap-2">
+			<h1 class="text-2xl font-bold">{data.meta.title}</h1>
+			<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
+			{#if data.meta.categories.length > 0}
+				<div class="flex gap-2">
+					{#each data.meta.categories as category (category)}
+						<span class="text-xs text-gray-600">#{category}</span>
+					{/each}
+				</div>
+			{/if}
+		</div>
 
-	<div class="article-content">
-		<data.content />
-	</div>
-</article>
+		<div class="article-content">
+			<data.content />
+		</div>
+	</article>
+
+	<aside class="hidden w-64 lg:block">
+		<TableOfContents />
+	</aside>
+</div>
 
 <style>
 	.article-content :global(h2) {

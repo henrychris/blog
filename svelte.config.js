@@ -3,7 +3,6 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { getSingletonHighlighter } from 'shiki';
 import { fileURLToPath } from 'url';
-import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
@@ -32,7 +31,7 @@ const mdsvexOptions = {
 	layout: {
 		_: __dirname + 'src/mdsvex.svelte'
 	},
-	remarkPlugins: [[remarkToc, { tight: true }]],
+	remarkPlugins: [],
 	rehypePlugins: [rehypeSlug]
 };
 
