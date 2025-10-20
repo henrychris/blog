@@ -4,10 +4,19 @@ declare global {
 	namespace App {
 		// interface Error {}
 		// interface Locals {}
-		// interface PageData {}
+		interface PageData {
+			meta?: Meta;
+		}
 		// interface PageState {}
 		// interface Platform {}
 	}
 }
+
+type Meta = {
+	title: string;
+	description: string;
+	url: string;
+	image: string;
+};
 
 export {};

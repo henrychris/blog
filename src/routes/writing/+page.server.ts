@@ -27,7 +27,13 @@ async function loadPosts() {
 }
 
 export async function load() {
-	return { posts: await loadPosts() };
+	return {
+		posts: await loadPosts(),
+		meta: {
+			title: 'Writing',
+			description: 'All the articles I have released into the world.'
+		}
+	};
 }
 
 export const entries: EntryGenerator = async () => {
