@@ -6,7 +6,9 @@ export type Categories =
 	| 'me'
 	| 'fiction'
 	| 'projects'
-	| 'reading';
+	| 'reading'
+	| 'backend'
+	| 'performance';
 
 export type Post = {
 	title: string;
