@@ -31,7 +31,7 @@ His grandma's assistant, Abigail, kept the house running. Meals followed a sched
 
 Other days, we'd cruise around Lagos on side quests, noting every pitch we spotted. We took the train to Jumia's office, walked down Coker Road for shawarma (the best I've ever had), visited our friend Ayo down the street. Ibidapo played chess constantly. At the pitch while waiting for our set. On the stairs at the train station. In the break room at Jumia. Anywhere, really.
 
-My laptop crashed twice. I fixed it both times. I lost my Cowry card and had to get a new one. One evening, SARZ—unidentified 'policemen' with guns—tried flagging us down on the freeway. We sped past.
+My laptop crashed twice. I fixed it both times. I lost my Cowry card and had to get a new one. One evening, SARS—unidentified 'policemen' with guns—tried flagging us down on the freeway. We sped past.
 
 ![](https://res.cloudinary.com/dit0zbles/image/upload/v1761048144/coker-2_kovcj7.jpg 'Chess everywhere')
 
