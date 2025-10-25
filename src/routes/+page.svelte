@@ -15,11 +15,11 @@
 	<div class="flex flex-col gap-2 text-base">
 		<p>
 			I'm a product engineer. I love all things technology, literature, videogames, animanga and
-			movies. Oh. Sports too - football and F1.
+			movies. Sports too - football and F1.
 		</p>
 		<p>
 			I'm currently figuring out my niche within the world of technology. Some choose databases,
-			others go with compilers - I have none, at the time of writing.
+			others go with compilers - I have none, at the time of writing. My stack is Svelte & Sveltekit and Typescript or .NET.
 		</p>
 		<p>
 			You'll find the odd technical article here, some yapping about movies, a lot of music
