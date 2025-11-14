@@ -14,7 +14,7 @@ const mdsvexOptions = {
 		highlighter: async (code, lang = 'text') => {
 			const highlighter = await getSingletonHighlighter({
 				themes: ['poimandres'],
-				langs: ['javascript', 'typescript', 'c#', 'bash', 'json', 'typescript']
+				langs: ['javascript', 'typescript', 'c#', 'bash', 'json', 'typescript', 'java']
 			});
 			await highlighter.loadLanguage(
 				'javascript',
@@ -22,7 +22,8 @@ const mdsvexOptions = {
 				'c#',
 				'bash',
 				'json',
-				'typescript'
+				'typescript',
+				'java'
 			);
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }));
 			return `{@html \`${html}\` }`;
