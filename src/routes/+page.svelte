@@ -38,8 +38,5 @@
 		<li>
 			<a href="https://www.linkedin.com/in/henry-ihenacho" target="_blank">LinkedIn</a>
 		</li>
-		<li>
-			<a href="mailto:henrychris2003@gmail.com" target="_blank">Email</a>
-		</li>
 	</ul>
 </article>

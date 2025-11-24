@@ -15,10 +15,6 @@
 				Github
 			</a>
 			|
-			<a href="mailto:henrychris2003@gmail.com" class="text-blue-500 underline hover:text-blue-700">
-				henrychris2003@gmail.com
-			</a>
-			|
 			<a
 				href="https://www.linkedin.com/in/henry-ihenacho"
 				class="text-blue-500 underline hover:text-blue-700"
