@@ -66,6 +66,14 @@
 				year: '2019',
 				notes: 'I consider this a love song.',
 				link: 'https://open.spotify.com/track/4BsLwvaJOTOHDNg7xMpvrL?si=2db3d689051f4a4a'
+			},
+			{
+				title: '100 Bad Days',
+				creator: 'AJR',
+				year: '2019',
+				notes:
+					"I live by the statement, 'A 100 bad days, make a 100 good stories'. It is why I don't take any misfortune seriously.",
+				link: 'https://open.spotify.com/track/0WmH9fXWCQ51RQi1kWPJrI?si=4148f4d667b648fc'
 			}
 		],
 		anime: [
