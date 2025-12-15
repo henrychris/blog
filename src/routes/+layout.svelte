@@ -2,6 +2,7 @@
 	import '../app.css';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import { Toaster } from 'svelte-sonner';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import { IMAGES } from '$lib/constants/images';
 	import { siteUrl } from '$lib/config';
@@ -51,6 +52,7 @@
 
 	<main class="flex-grow">
 		<PageTransition url={data.url}>
+			<Toaster position="top-right" />
 			{@render children?.()}
 		</PageTransition>
 	</main>

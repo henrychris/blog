@@ -1,21 +1,63 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
+	import { toast } from 'svelte-sonner';
+	import { Share } from 'lucide-svelte';
 
 	let { data } = $props();
+
+	async function shareArticle() {
+		const shareText = `Read '${data.meta.title}' by Henry Ihenacho.\nLink: ${data.url}`;
+		const shareData = {
+			title: data.meta.title,
+			text: shareText,
+			url: data.url
+		};
+
+		if (navigator.share) {
+			try {
+				await navigator.share(shareData);
+			} catch (err) {
+				// User cancelled or share failed, fallback to clipboard
+				await copyToClipboard();
+			}
+		} else {
+			await copyToClipboard();
+		}
+	}
+
+	async function copyToClipboard() {
+		const shareText = `Read '${data.meta.title}' by Henry Ihenacho.\nLink: ${data.url}`;
+		try {
+			await navigator.clipboard.writeText(shareText);
+			toast('Link copied to clipboard!');
+		} catch {
+			// Fallback for older browsers
+			const textArea = document.createElement('textarea');
+			textArea.value = shareText;
+			document.body.appendChild(textArea);
+			textArea.select();
+			document.execCommand('copy');
+			document.body.removeChild(textArea);
+			toast('Link copied to clipboard!');
+		}
+	}
 </script>
 
 <svelte:head>
 	<meta property="article:published_time" content={data.meta.date} />
-	{#each data.meta.categories as category}
+	{#each data.meta.categories as category (category)}
 		<meta property="article:tag" content={category} />
 	{/each}
 </svelte:head>
 
 <div class="mx-auto flex w-full max-w-7xl gap-8 px-4 sm:px-6 lg:px-8">
-	<article class="mx-auto flex w-full max-w-prose flex-col gap-8">
+	<article class="mx-auto flex w-full max-w-prose flex-col gap-4">
 		<div class="flex flex-col gap-1">
 			<h1 class="text-2xl font-bold break-words">{data.meta.title}</h1>
+			{#if data.meta.description}
+				<p class="text-gray-600">{data.meta.description}</p>
+			{/if}
 			<p class="text-sm text-gray-500">{formatDate(data.meta.date)}</p>
 			{#if data.meta.categories.length > 0}
 				<div class="mt-2 flex flex-wrap gap-2">
@@ -24,6 +66,18 @@
 					{/each}
 				</div>
 			{/if}
+
+			<hr class="my-4 border-gray-200" />
+
+			<button
+				onclick={shareArticle}
+				class="flex w-fit items-center gap-2 rounded-md border border-gray-300 px-3 py-1.5 text-sm text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-800"
+			>
+				<Share class="size-4" />
+				Share
+			</button>
+
+			<hr class="my-4 border-gray-200" />
 		</div>
 
 		<div class="article-content">
