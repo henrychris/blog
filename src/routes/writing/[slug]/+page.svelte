@@ -7,7 +7,7 @@
 	let { data } = $props();
 
 	async function shareArticle() {
-		const shareText = `Read '${data.meta.title}' by Henry Ihenacho.\nLink: ${data.url}`;
+		const shareText = `Read '${data.meta.title}' by Henry Ihenacho.\n\nLink: ${data.url}`;
 		const shareData = {
 			title: data.meta.title,
 			text: shareText,
