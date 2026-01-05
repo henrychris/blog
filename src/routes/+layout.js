@@ -9,6 +9,8 @@ export async function load({ url }) {
 			defaults: '2025-11-30',
 			person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
 		});
+
+		console.debug('Initialised...');
 	}
 
 	return {
