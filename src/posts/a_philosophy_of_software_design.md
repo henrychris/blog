@@ -298,10 +298,17 @@ This generality ensures a cleaner separation between classes. For example, a gen
 
 Special-purpose designs are discouraged because they frequently result in information leakage.
 
-| Design Style        | Example (Text Editor API)                                                                                      | Outcome                                                                                                                                                                                                                                                       |
-| :------------------ | :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Special-Purpose** | Methods like `void backspace(Cursor cursor)` or `void deleteSelection(Selection selection)`.                   | This leaks user interface abstractions (like "selection") into the underlying text class, increasing cognitive load and complexity.                                                                                                                           |
-| **General-Purpose** | Methods like `void insert(Position position, String newText)` and `void delete(Position start, Position end)`. | The interface is based on fundamental text operations, hiding application-specific logic. This allows the same method to be reused for different actions (e.g., implementing backspace, delete key, or selection deletion using the generic `delete` method). |
+**Special Purpose**
+
+Methods like `void backspace(Cursor cursor)` or `void deleteSelection(Selection selection)`.
+
+These leak user interface abstractions (like `Selection`) into the underlying text class, increasing cognitive load and complexity.
+
+**General Purpose**
+
+Methods like `void insert(Position position, String newText)` and `void delete(Position start, Position end)`.
+
+These interfaces are based on fundamental text operations, hiding application-specific logic. This allows the same method to be reused for different actions (e.g., implementing backspace, delete key, or selection deletion using the generic `delete` method).
 
 ### Questions To Ask Yourself
 
