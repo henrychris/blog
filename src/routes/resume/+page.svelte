@@ -43,7 +43,7 @@
 		<h2 class="border-b border-gray-200 pb-2 text-2xl font-semibold">Work Experience</h2>
 		<WorkExperience
 			company="BrosPhoneParts"
-			role="Backend Engineer"
+			role="Backend Engineer (NodeJS, Typescript, MongoDB)"
 			period="Nov 2024 - Present"
 			location="New York, US"
 		>
@@ -66,7 +66,7 @@
 
 		<WorkExperience
 			company="Lights On Heights (Limestone)"
-			role="Lead Backend Engineer"
+			role="Lead Backend Engineer (.NET, C#, PostgreSQL)"
 			period="Feb 2024 - Sep 2024"
 			location="Lagos, NG"
 		>
@@ -90,7 +90,7 @@
 
 		<WorkExperience
 			company="ErrandPay"
-			role="Backend Engineer"
+			role="Backend Engineer (.NET, C#, MySQL)"
 			period="Feb 2023 - Oct 2023"
 			location="Lagos, NG"
 		>
@@ -117,7 +117,7 @@
 
 		<WorkExperience
 			company="Fuelmetrics"
-			role="Backend Engineer - Internship"
+			role="Backend Engineer - Internship (.NET, C#, MySQL)"
 			period="May 2021 - Oct 2021"
 			location="Lagos, NG"
 		>
@@ -152,14 +152,28 @@
 				users a week.
 			</p>
 		</div>
+
+		<div>
+			<div class="flex items-center justify-between">
+				<h3 class="text-lg font-semibold">QBall Admin</h3>
+				<a
+					href="https://admin.qballxi.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-sm text-blue-500 underline hover:text-blue-700">Project Link</a
+				>
+			</div>
+			<p class="leading-relaxed">
+				An application for football pitch owners to manage their operations.
+			</p>
+		</div>
 	</section>
 
 	<section class="flex flex-col gap-2">
 		<h2 class="border-b border-gray-200 pb-2 text-2xl font-semibold">Technical Skills</h2>
 		<p class="leading-relaxed">
-			<strong class="font-semibold">Languages:</strong> C#, TypeScript, JavaScript, HTML, SQL, C,
-			CSS<br />
-			<strong class="font-semibold">Frameworks:</strong> .NET, Express, Fastify, Svelte<br />
+			<strong class="font-semibold">Languages & Frameworks:</strong> C#, TypeScript, JavaScript,
+			HTML, SQL, C, CSS, Tailwind CSS, NodeJS, .NET, Fastify<br />
 			<strong class="font-semibold">Other Technologies:</strong> Azure, Docker, RabbitMQ, NATS, FusionAuth,
 			Node, Bun, OpenTelemetry, GitHub Actions
 		</p>
