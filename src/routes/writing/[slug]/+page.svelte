@@ -176,9 +176,28 @@
 
 	.article-content :global(table) {
 		display: block;
-		width: 100%;
 		overflow-x: auto;
 		margin-bottom: 1rem;
+		border: 1px solid #e5e7eb;
+		border-radius: 0.5rem;
+	}
+
+	.article-content :global(table) {
+		border-collapse: collapse;
+	}
+
+	.article-content :global(table th),
+	.article-content :global(table td) {
+		min-width: 200px;
+		padding: 0.75rem;
+		text-align: left;
+		border: 1px solid #e5e7eb;
+	}
+
+	.article-content :global(table th) {
+		background-color: #f9fafb;
+		font-weight: 600;
+		white-space: nowrap;
 	}
 
 	/* Global overflow prevention for mobile */
