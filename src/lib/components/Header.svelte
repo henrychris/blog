@@ -37,14 +37,19 @@
 			<a href={resolve(ROUTES.HOME)} class={isActive(ROUTES.HOME) ? 'underline' : ''}>Me</a>
 		</li>
 		<li class="hover:underline">
-			<a href={resolve(ROUTES.WRITING)} class={isActive(ROUTES.WRITING) ? 'underline' : ''}
-				>Writing</a
-			>
+			<a href={resolve(ROUTES.WRITING)} class={isActive(ROUTES.WRITING) ? 'underline' : ''}>
+				Writing
+			</a>
 		</li>
 		<li class="hover:underline">
-			<a href={resolve(ROUTES.PROJECTS)} class={isActive(ROUTES.PROJECTS) ? 'underline' : ''}
-				>Projects</a
-			>
+			<a href={resolve(ROUTES.BRAG)} class={isActive(ROUTES.BRAG) ? 'underline' : ''}>
+				Brag Document
+			</a>
+		</li>
+		<li class="hover:underline">
+			<a href={resolve(ROUTES.PROJECTS)} class={isActive(ROUTES.PROJECTS) ? 'underline' : ''}>
+				Projects
+			</a>
 		</li>
 		<li class="hover:underline">
 			<a href={resolve(ROUTES.RESUME)} class={isActive(ROUTES.RESUME) ? 'underline' : ''}>Resume</a>
@@ -88,6 +93,13 @@
 						href={resolve(ROUTES.WRITING)}
 						class="block px-4 py-2 {isActive(ROUTES.WRITING) ? 'underline' : ''}"
 						onclick={() => (menuOpen = false)}>Writing</a
+					>
+				</li>
+				<li class="hover:bg-gray-100">
+					<a
+						href={resolve(ROUTES.BRAG)}
+						class="block px-4 py-2 {isActive(ROUTES.BRAG) ? 'underline' : ''}"
+						onclick={() => (menuOpen = false)}>Brag Document</a
 					>
 				</li>
 				<li class="hover:bg-gray-100">
