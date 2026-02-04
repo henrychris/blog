@@ -16,6 +16,13 @@
 		if (routePath === ROUTES.HOME) {
 			return currentPath === resolvedPath || currentPath === resolvedPath + '/';
 		}
+
+		// dont highlight writing if user is viewing brag document
+		// so that both nav elements aren't highlighted
+		if (routePath === ROUTES.WRITING) {
+			return currentPath.startsWith(resolvedPath) && currentPath !== resolve(ROUTES.BRAG);
+		}
+
 		return currentPath.startsWith(resolvedPath);
 	}
 </script>
