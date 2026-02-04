@@ -13,6 +13,7 @@ published: true
 
 **February 13**
 
+- Started a new role at **Lights On Heights**
 - Finished Limestone Product Onboarding with Temitope
 - Took part in Design Review meeting
 - Joined Backend team to work on Microservices demo
@@ -971,6 +972,7 @@ published: true
 
 **November 11**
 
+- Started a new role at **BrosPhoneParts**
 - Scaffolded the new project foundation.
 - Reviewed Shopify's authentication schemes and documented requirements.
 - Designed the initial database schema and created the corresponding Prisma models, including adminUser and userLoginService for authentication.
@@ -993,7 +995,6 @@ published: true
 
 **November 15**
 
--
 - Refactored the Google signup and sign-in flows to reduce code bloat.
 - Implemented a complete two-factor authentication (2FA) flow for password-based authentication, which included:
   - Adding endpoints to toggle and verify 2FA.
